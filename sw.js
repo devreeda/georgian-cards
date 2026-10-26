@@ -1,4 +1,4 @@
-const CACHE = "ka-cards-v3";
+const CACHE = "ka-cards-v4";
 const ASSETS = ["./", "./index.html", "./sw.js"];
 
 self.addEventListener("install", e => {
