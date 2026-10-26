@@ -1,4 +1,4 @@
-const CACHE = "ka-cards-v1";
+const CACHE = "ka-cards-v2";
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(["./", "./index.html"])).then(() => self.skipWaiting()));
 });
